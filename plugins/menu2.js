@@ -11,7 +11,7 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 ╭══════════════════๑—————————
 *║╭──❉ 〔Utama〕*
 ║│➸.onketik
-║│➸.sewajarot
+║│➸.sewamoon
 ║│➸.biodata
 ║│➸.groupbot
 ║│➸.iklan
@@ -22,7 +22,7 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 ║│➸.?
 ║│➸.tutorbot
 ║│➸.panduan
-║│➸.runbotjarot
+║│➸.runbotmoon
 ║│➸.sewa
 ║│➸.sewasat
 ║│➸.sewaoscar
@@ -532,8 +532,6 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 ║│➸.viadana
 ║│➸.viapulsa
 ║│➸.yutube
-║│➸.zifa1
-║│➸.zifa2
 ║│➸.owner
 ║│➸.creator
 ║│➸.owner
@@ -545,12 +543,12 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 
 
   ⬣━〔Powered By Moon〕━⬣
-©️ jarotbotz`
+©️ Moonbotz`
 let name = await conn.getName(m.sender)
 
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 
-  sumberImg = await (await fetch(fla + 'JAROTBOTZ')).buffer()
+  sumberImg = await (await fetch(fla + 'MOONBOTZ')).buffer()
   image = (await conn.prepareMessage('6285826114932@s.whatsapp.net', sumberImg, MessageType.image, { thumbnail: Buffer.alloc(0) })).message.imageMessage
   res = await conn.prepareMessageFromContent(m.chat, {
     "productMessage": {
