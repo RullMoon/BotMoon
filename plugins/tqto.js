@@ -3,11 +3,11 @@ let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fet
 BIG THANKS TO
 ╭═══════════════════════
 ║╭──❉ 〔 TERIMAKASIH 〕 ❉──────
-║│➸ *OWNER* : *_JAROT_*
-║│➸ *BOT*: *_BOTZ OFFICIAL_*
+║│➸ *OWNER* : *_RULL_*
+║│➸ *BOT*: *_MOON OFFICIAL_*
 ║│➸ *_LAYANAN API_*
-║│➸ *_ALYA_*
-║│➸ *_BOTCAHX_*
+║│➸ *_ARAA_*
+║│➸ *_GATAU_*
   •BASE NURUTOMO
 ═════════════
 `.trim(), watermark, 'TERIMAKASIH👋', '.menu')
