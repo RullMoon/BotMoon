@@ -3,11 +3,11 @@ let caption = `♡   ❍ㅤ  ⎙ㅤ ⌲
 ╭─[ ZIFABOTZ ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
-⬣━〔Powered By Rozi━⬣
+⬣━〔Powered By Rull*━⬣
 ▌│█║▌║▌║║▌║▌║█│▌
 *║╭──❉ 〔Utama〕*
 ║│➸.onketik
-║│➸.sewazifa
+║│➸.sewamoon
 ║│➸.biodata
 ║│➸.groupbot
 ║│➸.iklan
@@ -20,8 +20,6 @@ let caption = `♡   ❍ㅤ  ⎙ㅤ ⌲
 ║│➸.panduan
 ║│➸.runbotmursid
 ║│➸.sewa
-║│➸.sewasat
-║│➸.sewazifabotz1
 ║│➸.menu
 ║│➸.help
 ║│➸.?
@@ -527,8 +525,6 @@ let caption = `♡   ❍ㅤ  ⎙ㅤ ⌲
 ║│➸.viadana
 ║│➸.viapulsa
 ║│➸.yutube
-║│➸.zifa1
-║│➸.zifa2
 ║│➸.owner
 ║│➸.creator
 ║│➸.owner
@@ -538,7 +534,7 @@ let caption = `♡   ❍ㅤ  ⎙ㅤ ⌲
 *║╭──❉ 〔Tanpa Kategori〕*
 *╰───❉*`
 
-conn.sendButton( m.chat, caption, `©️ zifabotz`, `CREATORBOT`, `.owner`, m)
+conn.sendButton( m.chat, caption, `©️ moonbotz`, `CREATORBOT`, `.owner`, m)
 
        }
        
