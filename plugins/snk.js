@@ -3,9 +3,9 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kontol = `╭─────[ *RULES* ]─────✧
 ┴
-│¹ Dilarang Hina jarotbotz / Owner
+│¹ Dilarang Hina moonbot / Owner
 │² Dilarang Spam Command
-│³ Dilarang Kirim Virtex ke zifabotz
+│³ Dilarang Kirim Virtex ke moonbotz
 │⁴ Dilarang Spam Menu Ga Jelas
 │⁵ Dilarang Telp / Vc
 │⁶ Dilarang Culik Bot
@@ -32,7 +32,7 @@ let handler = async(m, { conn }) => {
         sections:  [{title: "Silahkan di pilih gausah pilih yang gaada", rows: [
         {title: 'Menu Utama', description: "Kembali ke Menu Utama", rowId:".?"},
         {title: 'Sewa Bot', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewa"},
-        {title: 'Group Bot', description: "Official Group Bot jarotbotz", rowId:".gcbot"},
+        {title: 'Group Bot', description: "Official Group Bot moonbotz", rowId:".gcbot"},
         {title: 'Donasi', description: "Donasi agar selalu online", rowId:".donasi"},
         {title: 'Owner', description: "Owner/Creator Bot", rowId:".owner"},
        ] }],
