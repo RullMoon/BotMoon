@@ -7,7 +7,7 @@ let handler = async(m, { conn }) => {
         buttonText: 'pilih group',
         description: Moon,
         sections:  [{title: "groub pilihan", rows: [
-        {title: '⋮☰group MoonBot¹', description: "📣join kuy", rowId:".jarot1"},
+        {title: '⋮☰group MoonBot¹', description: "📣join kuy", rowId:".moongc"},
        ] }],
         listType: 1
        }
