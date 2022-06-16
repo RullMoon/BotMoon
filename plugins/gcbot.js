@@ -2,15 +2,12 @@ let fetch = require('node-fetch')
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kontol = `
-*_📮:PILIH GRUB YANG KAMU MAU JOIN_*`.trim()
+*_📮:Join MoonBot GC_*`.trim()
   const button = {
         buttonText: 'pilih group',
-        description: kontol,
+        description: Moon,
         sections:  [{title: "groub pilihan", rows: [
-        {title: '⋮☰group jarot1', description: "📣join kuy", rowId:".jarot1"},
-        {title: '⋮☰group jarot2', description: "📣join kuy", rowId:".jarot2"},
-        {title: '⋮☰group jarotofc', description: "📣join kuy", rowId:".jarotofc1"},
-        {title: '⋮☰group oscar', description: "📣join kuy", rowId:".oscar"},
+        {title: '⋮☰group MoonBot¹', description: "📣join kuy", rowId:".jarot1"},
        ] }],
         listType: 1
        }
