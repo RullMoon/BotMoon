@@ -34,7 +34,7 @@ const defaultMenu = {
   body: '║│➸%cmd %islimit %isPremium',
   footer: '*╰───❉*\n',
   after: `
-  ⬣━〔Powered By Jarot〕━⬣
+  ⬣━〔Powered By Moon〕━⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -225,11 +225,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `
 ♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_JAROTBOTZ_* ]─✧
+╭─[ *_MOONBOTZ_* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
-⬣━〔Powered By Jarot━⬣
-▌│█║▌║▌║║▌║▌║█│▌ `.trim(),                        "footerText": "*©jarotbotz*",                        "buttonText": "««TAMPILAN MENU««",                        "listType": "SINGLE_SELECT",                        "sections": [
+⬣━〔Powered By moon━⬣
+▌│█║▌║▌║║▌║▌║█│▌ `.trim(),                        "footerText": "*©moonbotz*",                        "buttonText": "««TAMPILAN MENU««",                        "listType": "SINGLE_SELECT",                        "sections": [
                             {
                                 "rows": [{
                                     "title":  "|📥| ❯╾Donasi╼-",
@@ -245,11 +245,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".setelangrub"
                                 }, {
 "title":      "|🛒| ❯╾Store Menu╼-",
-                                    "description": "store di Jarotbotz",
+                                    "description": "store di moonbotz",
                                     "rowId": ".iklan"
                                 }, {
   "title":  "|👩‍💻| ❯╾jadibot╼-",
-                                    "description": "bergabung bersama bot Jarot",
+                                    "description": "bergabung bersama bot Moon",
                                     "rowId": ".jadibot"
                                 }, {
   "title":  "|🙇‍♂️| ❯╾group╼-",
@@ -396,7 +396,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".waifu"
                                 }, { 
 "title": "⋮☰|🅿️|┅MENU———๑「 31 」",
-                                    "description": "profile anda di jarotbotz",
+                                    "description": "profile anda di Moonbotz",
                                     "rowId": ".profile"
                                 }, { 
                                     "title": "⋮☰|👩‍⚖️|┅MENU———๑「 32 」",
@@ -406,15 +406,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "|👩‍💻| Owner JAROTBOTZ",
-                                    "description": "pemilik JAROTBOTZ",
+                                    "title": "|👩‍💻| Owner MOONBOTZ",
+                                    "description": "pemilik MOONBOTZ",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "|🛠|Status bot",
                                     "description": "Status dan informasi bot",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "|🖨️| Rules Jarotbotz",
+                                    "title": "|🖨️| Rules Moonbotz",
                                     "description": "Mari menaati peraturan demi Kita bersama",
                                     "rowId": ".rules2"
                                 }, {
@@ -511,7 +511,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), text.trim(), watermark, '▁ ▂ ▄ ▅ ▆ ▇ █PEMILIK BOT', `${_p}owner`, '🐻TUTORIAL BUAT BOT🐻', `.tutorial`, m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), text.trim(), watermark, '▁ ▂ ▄ ▅ ▆ ▇ █PEMILIK BOT', `${_p}owner`, 'Speed', `.speed`, m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
