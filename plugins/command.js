@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
 let caption = `♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ ZIFABOTZ ]─✧
+╭─[ MOONBOTZ ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
 ⬣━〔Powered By Rull*━⬣
@@ -12,7 +12,6 @@ let caption = `♡   ❍ㅤ  ⎙ㅤ ⌲
 ║│➸.groupbot
 ║│➸.iklan
 ║│➸.linktermux
-║│➸.lucbot
 ║│➸.menu
 ║│➸.help
 ║│➸.?
